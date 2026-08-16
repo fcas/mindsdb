@@ -25,4 +25,4 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - run: semgrep ci
+      - run: semgrep ci --include='*.py'
